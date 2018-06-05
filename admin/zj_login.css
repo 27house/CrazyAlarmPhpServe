@@ -1,0 +1,51 @@
+*{font-family:"微软雅黑";}
+body.login-layout{
+	background:url(zj_img/loginbg.jpg) no-repeat center top #1b6aaa;
+}
+.login-layout .widget-box .widget-main{
+	padding:0 0 20px;
+background: #fff;
+}
+.login-layout .widget-box{
+background: none;
+}
+.login-layout .widget-box .white{
+	font-size:12px;
+	color:rgba(255,255,255,.5)!important;
+}
+.header.blue {
+	border-bottom-color: #fff;
+}
+.header {
+	line-height: 28px;
+	margin:0;
+	padding: 0;
+	border-bottom: 1px solid #CCC;
+}
+.login-layout .widget-box{
+	padding:0;
+}
+h4.bigger {
+	background:url(zj_img/loginh4bg.jpg) repeat-x center top #1b6aaa;
+	line-height: 70px;
+	text-indent:12px;
+}
+.blue #login_title{
+	color:#fff!important;
+}
+#login-box .green {
+color: #fff!important;
+}
+.login-layout .widget-box .widget-main form {
+	margin: 0 auto;
+	width:95%;
+}
+.login-container {
+width: 475px;
+margin: 0 auto;
+}
+.position-relative{
+	margin:150px 0 0;
+}
+.widget-box.no-border>.widget-body{
+margin-bottom:100px;}

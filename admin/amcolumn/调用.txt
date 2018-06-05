@@ -1,0 +1,33 @@
+±ýÍ¼
+
+<div id="flashcontent">
+		<strong>You need to upgrade your Flash Player</strong>		</div>
+		
+		<script type="text/javascript">
+		// <![CDATA[		
+		var so = new SWFObject("../amcolumn/ampie/ampie.swf", "ampie", "100%", "400", "8", "#FFFFFF");
+		so.addVariable("path", "ampie/");
+		so.addVariable("settings_file", escape("../amcolumn/ampie/ampie_settings.xml"));       // you can set two or more different settings files here (separated by commas)
+		so.addVariable("data_file", escape("../amcolumn/ampie/ampie_data.php?title_list=<?php echo urlencode($title_list);?>&count_list=<?php echo urlencode($count_list);?>"));		
+//	so.addVariable("chart_data", "");                                          // you can pass chart data as a string directly from this file
+//	so.addVariable("chart_settings", "");                                      // you can pass chart settings as a string directly from this file
+//	so.addVariable("additional_chart_settings", "<settings></settings>");      // you append some chart settings to the loaded ones
+//  so.addVariable("loading_settings", "LOADING SETTINGS");                    // you can set custom "loading settings" text here
+//  so.addVariable("loading_data", "LOADING DATA");                            // you can set custom "loading data" text here
+    so.addVariable("preloader_color", "#999999");
+		so.write("flashcontent");
+		// ]]>
+	</script>
+
+ÖùÍ¼
+<div id="flashcontent10">
+		<strong>You need to upgrade your Flash Player</strong>	</div>
+
+	<script type="text/javascript">	
+		var so = new SWFObject("../amcolumn/amcolumn.swf", "amcolumn", "100%", "380", "8", "#FFFFFF");
+		so.addVariable("path", "../amcolumn/");
+		so.addVariable("settings_file", escape("../amcolumn/value_indicator/amcolumn_settings2.xml"));
+		so.addVariable("data_file", escape("../amcolumn/value_indicator/amcolumn_data2.php?title_list=<?php echo urlencode($title_list);?>&count_list=<?php echo urlencode($count_list);?>"));
+		so.addVariable("preloader_color", "#000000");
+		so.write("flashcontent10");
+	</script>

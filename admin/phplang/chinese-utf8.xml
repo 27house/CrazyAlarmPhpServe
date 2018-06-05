@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2018/6/1" version="10.0.3" id="zh-cn" name="Chinese-utf8" desc="Chinese-utf8" author="e.World Technology Ltd.">
+	<locale>
+		<phrase id="locale" value=""/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value="."/>
+		<phrase id="thousands_sep" value=","/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value=","/>
+		<phrase id="currency_symbol" value="$"/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="US/Pacific"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="actiondeleted" value="已删"/>
+		<phrase id="actioninserted" value="已插入"/>
+		<phrase id="actioninsertedgridadd" value="插入完毕"/>
+		<phrase id="actionupdated" value="已更新"/>
+		<phrase id="actionupdatedgridedit" value="已更新(Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="批量更新完毕"/>
+		<phrase id="activateaccount" value="账户已经激活"/>
+		<phrase id="activatefailed" value="激活失败"/>
+		<phrase id="add" value="增加"/>
+		<phrase id="addblankrow" value="加空白行" imageurl="phpimages/addblankrow.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="addbtn" value="增加"/>
+		<phrase id="addlink" value="增加"/>
+		<phrase id="addmasterdetaillink" value="增加明细"/>
+		<phrase id="addsuccess" value="成功增加"/>
+		<phrase id="advancedsearch" value="高级搜索"/>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="allword" value="全部文字"/>
+		<phrase id="alwaysask" value="始终询问密码"/>
+		<phrase id="anyword" value="任何值"/>
+		<phrase id="audittrailautologin" value="自动登录"/>
+		<phrase id="audittrailfailedattempt" value="重试次数: %n"/>
+		<phrase id="audittrailuserloggedin" value="用户已经登录"/>
+		<phrase id="audittrailpasswordexpired" value="密码已经过去"/>
+		<phrase id="audittraillogin" value="登录"/>
+		<phrase id="audittraillogout" value="推出"/>
+		<phrase id="autologin" value="自动登录除非我主动退出"/>
+		<phrase id="average" value="平均"/>
+		<phrase id="backtolist" value="返回列表"/>
+		<phrase id="backtologin" value="返回登录页"/>
+		<phrase id="backtomasterrecordpage" value="返回主表"/>
+		<phrase id="batchdeletebegin" value="*** 批量删除开始 ***"/>
+		<phrase id="batchdeleterollback" value="*** 批量删除回滚 ***"/>
+		<phrase id="batchdeletesuccess" value="*** 批量删除完毕 ***"/>
+		<phrase id="batchinsertbegin" value="*** 批量增加开始 ***"/>
+		<phrase id="batchinsertrollback" value="*** 批量增加回滚 ***"/>
+		<phrase id="batchinsertsuccess" value="*** 批量增加完毕 ***"/>
+		<phrase id="batchupdatebegin" value="*** 批量更新开始 ***"/>
+		<phrase id="batchupdaterollback" value="*** 批量更新回滚 ***"/>
+		<phrase id="batchupdatesuccess" value="*** 批量更新完毕 ***"/>
+		<phrase id="breadcrumbdivider" value="/"/>
+		<phrase id="buttonactions" value="动作"/>
+		<phrase id="buttonaddedit" value="增加/编辑"/>
+		<phrase id="buttondetails" value="主/明细"/>
+		<phrase id="buttonexport" value="导出"/>
+		<phrase id="buttonlistoptions" value="选项"/>
+		<phrase id="cancelbtn" value="取消"/>
+		<phrase id="cancellink" value="取消" imageurl="phpimages/cancel.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="changepwd" value="更新密码"/>
+		<phrase id="changepwdpage" value="更新密码"/>
+		<phrase id="changepwdbtn" value="修改"/>
+		<phrase id="choosefile" value="选择..."/>
+		<phrase id="confirm" value="确认"/>
+		<phrase id="confirmbtn" value="确认"/>
+		<phrase id="confirmpassword" value="确认密码"/>
+		<phrase id="conflictcancellink" value="取消"/>
+		<phrase id="copy" value="复制"/>
+		<phrase id="copylink" value="复制" imageurl="phpimages/copy.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="count" value="合计"/>
+		<phrase id="customactioncompleted" value="动作 '%s' 完毕"/>
+		<phrase id="customactioncancelled" value="动作 '%s' 取消"/>
+		<phrase id="customview" value="视图"/>
+		<phrase id="delete" value="删除"/>
+		<phrase id="deletebtn" value="删除"/>
+		<phrase id="deletecancelled" value="取消删除"/>
+		<phrase id="deleteconfirmmsg" value="确认要删去?" client="1"/>
+		<phrase id="deletelink" value="删除" imageurl="phpimages/delete.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="deletemulticonfirmmsg" value="确认要删去这些?" client="1"/>
+		<phrase id="deleteselectedlink" value="删去选定"/>
+		<phrase id="deletesuccess" value="删去成功"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="masterdetailcopylink" value="主细表复制"/>
+		<phrase id="masterdetaileditlink" value="主细表编辑"/>
+		<phrase id="masterdetailviewlink" value="查看"/>
+		<phrase id="dupindex" value="'%f'：'%v'已经存在"/>
+		<phrase id="dupkey" value="重复主键: '%f'"/>
+		<phrase id="edit" value="编辑"/>
+		<phrase id="editbtn" value="保存"/>
+		<phrase id="editlink" value="编辑" imageurl="phpimages/edit.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="enternewpassword" value="请输入新密码" client="1"/>
+		<phrase id="enteroldpassword" value="请输入原密码" client="1"/>
+		<phrase id="enterpassword" value="请输入密码" client="1"/>
+		<phrase id="enterpwd" value="请输入密码" client="1"/>
+		<phrase id="enterrequiredfield" value="请输入必填项" client="1"/>
+		<phrase id="entersearchcriteria" value="输入搜索关键字"/>
+		<phrase id="enterusername" value="请输入用户名" client="1"/>
+		<phrase id="entervalidatecode" value="请输入校验码" client="1"/>
+		<phrase id="entersenderemail" value="请输入发送人邮件" client="1"/>
+		<phrase id="enterpropersenderemail" value="超过最大发送数量" client="1"/>
+		<phrase id="enterrecipientemail" value="请输入收件人邮件地址" client="1"/>
+		<phrase id="enterproperrecipientemail" value="超出邮件人数量或者地址有误" client="1"/>
+		<phrase id="enterproperccemail" value="超过抄送邮件数量" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="请输入邮件标题" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="请输入用户ID" client="1"/>
+		<phrase id="entervalidemail" value="邮件地址格式错误!" client="1"/>
+		<phrase id="exactphrase" value="确认表达式"/>
+		<phrase id="exceedmaxretry" value="超过最大重试次数. 帐号被锁定请 %t 分钟后 重试"/>
+		<phrase id="exceedmaxemailexport" value="超过最大导出邮件数量"/>
+		<phrase id="exporttocsv" value="导出CSV" imageurl="phpimages/exportcsv.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttocsvtext" value="CSV"/>
+		<phrase id="exporttoemail" value="Email" imageurl="phpimages/exportemail.gif" client="1" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoemailtext" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="导出Excel" imageurl="phpimages/exportxls.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoexceltext" value="Excel"/>
+		<phrase id="exporttohtml" value="导出HTML" imageurl="phpimages/exporthtml.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttohtmltext" value="HTML"/>
+		<phrase id="exporttopdf" value="导出PDF" imageurl="phpimages/exportpdf.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttopdftext" value="PDF"/>
+		<phrase id="exporttoword" value="导出Word" imageurl="phpimages/exportdoc.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttowordtext" value="Word"/>
+		<phrase id="exporttoxml" value="导出XML" imageurl="phpimages/exportxml.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoxmltext" value="XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. "/>
+		<phrase id="fieldname" value="字段"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filenotfound" value="文件不存在"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+		<phrase id="overwritebtn" value="覆盖"/>
+		<phrase id="overwritelink" value="覆盖"/>
+		<phrase id="forgotpwd" value="忘记密码"/>
+		<phrase id="goback" value="返回"/>
+		<phrase id="gridaddlink" value="批量增加"/>
+		<phrase id="gridcancellink" value="取消" imageurl="phpimages/cancel.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="grideditlink" value="批量编辑"/>
+		<phrase id="gridinsertlink" value="插入" imageurl="phpimages/insert.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="gridsavelink" value="保存" imageurl="phpimages/update.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="hidehighlight" value="清除高亮" client="1"/>
+		<phrase id="homepage" value="主页"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="时间格式错误,正确为 yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="时间格式错误,正确为 mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="时间格式错误,正确为 dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="时间格式错误,正确为 yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="时间格式错误,正确为 mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="时间格式错误,正确为 dd%smm%syy"/>
+		<phrase id="incorrectemail" value="邮件错误" client="1"/>
+		<phrase id="incorrectfield" value="字段错误" client="1"/>
+		<phrase id="incorrectfloat" value="浮点数格式错误" client="1"/>
+		<phrase id="incorrectguid" value="错误GUID" client="1"/>
+		<phrase id="incorrectinteger" value="整数格式错误" client="1"/>
+		<phrase id="incorrectphone" value="电话号码格式错误" client="1"/>
+		<phrase id="incorrectregexp" value="匹配模式错误" client="1"/>
+		<phrase id="incorrectrange" value="数值介于 %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="时间格式错误 (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="邮编错误" client="1"/>
+		<phrase id="inlineaddlink" value="行内添加"/>
+		<phrase id="inlinecopylink" value="行内增加" imageurl="phpimages/inlinecopy.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="inlineeditlink" value="行内编辑" imageurl="phpimages/inlineedit.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="insertcancelled" value="插入取消"/>
+		<phrase id="insertfailed" value="插入记录失败" client="1"/>
+		<phrase id="insertlink" value="插入" imageurl="phpimages/insert.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="insertsuccess" value="插入成功"/>
+		<phrase id="invalidemail" value="邮件无效"/>
+		<phrase id="invalidfield" value="无效字段"/>
+		<phrase id="invalidkeyvalue" value="无效键值"/>
+		<phrase id="invalidrecord" value="无效记录" client="1"/>
+		<phrase id="invalidparameter" value="无效参数"/>
+		<phrase id="invalidpassword" value="无效密码"/>
+		<phrase id="invalidnewpassword" value="无效新密码"/>
+		<phrase id="invaliduidpwd" value="无效用户密码或者密码"/>
+		<phrase id="keep" value="保持"/>
+		<phrase id="language" value="语言"/>
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="登录"/>
+		<phrase id="logincancelled" value="登录取消"/>
+		<phrase id="loginpage" value="登录"/>
+		<phrase id="logout" value="退出"/>
+		<phrase id="masterrecord" value="主细表: "/>
+		<phrase id="maxfilesize" value="文件大小不能超过 (%s bytes) ." client="1"/>
+		<phrase id="messageok" value="OK" client="1"/>
+		<phrase id="mismatchpassword" value="密码错误" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="mobilemenu" value="Menu"/>
+		<phrase id="multiplemasterdetails" value="Master/Detail"/>
+		<phrase id="new" value="新"/>
+		<phrase id="newpassword" value="新密码"/>
+		<phrase id="newvalue" value="新值"/>
+		<phrase id="next" value="下一条"/>
+		<phrase id="noaddrecord" value="无记录被添加" client="1"/>
+		<phrase id="nofieldselected" value="未选定字段" client="1"/>
+		<phrase id="nopermission" value="无访问权限."/>
+		<phrase id="noaddpermission" value="无添加权限."/>
+		<phrase id="nodeletepermission" value="无删除权限."/>
+		<phrase id="noeditpermission" value="无编辑权限."/>
+		<phrase id="norecord" value="无记录"/>
+		<phrase id="norecordforkey" value="没找到搜索以下 = "/>
+		<phrase id="norecordselected" value="无记录选定" client="1"/>
+		<phrase id="notablegenerated" value="无表生成"/>
+		<phrase id="nouserlevel" value="无用户等级设置."/>
+		<phrase id="of" value="of"/>
+		<phrase id="old" value="旧"/>
+		<phrase id="oldpassword" value="旧密码"/>
+		<phrase id="optionalreadyexist" value="选项已经存在"/>
+		<phrase id="page" value="页"/>
+		<phrase id="pagerfirst" value="首页"/>
+		<phrase id="pagerlast" value="末页"/>
+		<phrase id="pagernext" value="下一页"/>
+		<phrase id="pagerprevious" value="上一页"/>
+		<phrase id="password" value="密码"/>
+		<phrase id="passwordrequest" value="密码请求"/>
+		<phrase id="passwordchanged" value="密码修改"/>
+		<phrase id="passwordexpired" value="密码过期."/>
+		<phrase id="permission" value="权限"/>
+		<phrase id="permissionaddcopy" value="加/复制"/>
+		<phrase id="permissiondelete" value="删"/>
+		<phrase id="permissionedit" value="修改"/>
+		<phrase id="permissionlistsearchview" value="查看/搜索/列表"/>
+		<phrase id="permissionlist" value="列表"/>
+		<phrase id="permissionsearch" value="搜索"/>
+		<phrase id="permissionview" value="查看"/>
+		<phrase id="pickdate" value="选择日期"/>
+		<phrase id="pleaseselect" value="请选择"/>
+		<phrase id="pleasewait" value="请等待..." client="1"/>
+		<phrase id="primarykeyunspecified" value="无主键"/>
+		<phrase id="printerfriendly" value="打印格式" imageurl="phpimages/print.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="printerfriendlytext" value="打印格式"/>
+		<phrase id="prev" value="上一条"/>
+		<phrase id="pwdemailsent" value="密码发送到指定邮件"/>
+		<phrase id="resetpwdemailsent" value="重置密码邮件发出"/>
+		<phrase id="quicksearch" value="万能搜索"/>
+		<phrase id="quicksearchbtn" value="搜索"/>
+		<phrase id="record" value="记录"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="条记录已经删除"/>
+		<phrase id="recordinserted" value="条记录已经插入"/>
+		<phrase id="recordupdated" value="条记录已经更新"/>
+		<phrase id="recordsperpage" value="每页数量"/>
+		<phrase id="register" value="注册"/>
+		<phrase id="registerbtn" value="注册"/>
+		<phrase id="registersuccess" value="注册成功"/>
+		<phrase id="registersuccessactivate" value="注册成功邮件已经发送.请点击激活链接."/>
+		<phrase id="registerpage" value="注册"/>
+		<phrase id="relatedrecordrequired" value="无法删去更新无主表记录 '%t'"/>
+		<phrase id="relatedrecordexists" value="无法删去明细表无记录 '%t'"/>
+		<phrase id="reloadbtn" value="重新载入"/>
+		<phrase id="reloadlink" value="重新载入"/>
+		<phrase id="rememberme" value="记住用户名"/>
+		<phrase id="remove" value="去除"/>
+		<phrase id="replace" value="替换"/>
+		<phrase id="report" value="报表"/>
+		<phrase id="requestpwdpage" value="需要密码"/>
+		<phrase id="reset" value="重置"/>
+		<phrase id="resetsearch" value="重置搜索条件"/>
+		<phrase id="rptavg" value="平均"/>
+		<phrase id="rptdtlrec" value="明细数量"/>
+		<phrase id="rptgrandtotal" value="总计"/>
+		<phrase id="rptmax" value="最大"/>
+		<phrase id="rptmin" value="最小"/>
+		<phrase id="rptsum" value="合计"/>
+		<phrase id="rptsumhead" value="累计"/>
+		<phrase id="saveusername" value="保存我的用户名"/>
+		<phrase id="search" value="搜索"/>
+		<phrase id="sendemailbtn" value="发送"/>
+		<phrase id="sendemailsuccess" value="邮件成功发送" client="1"/>
+		<phrase id="sendpwd" value="发送"/>
+		<phrase id="sequencenumber" value="%s."/>
+		<phrase id="showall" value="全部显示"/>
+		<phrase id="showhighlight" value="显示高亮" client="1"/>
+		<phrase id="srchlegend" value=""/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value="Table: "/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="to"/>
+		<phrase id="total" value="总计"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="Value does not exist" imageurl="phpimages/warn.gif" imagewidth="16" imageheight="15"/>
+		<phrase id="update" value="更新"/>
+		<phrase id="updatebtn" value="更新"/>
+		<phrase id="updatecancelled" value="更新取消"/>
+		<phrase id="updatefailed" value="更新失败"/>
+		<phrase id="updatelink" value="更新" imageurl="phpimages/update.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="updateselectedlink" value="更新选定记录"/>
+		<phrase id="updatesuccess" value="更新成功"/>
+		<phrase id="uploading" value="正在上传..." client="1"/>
+		<phrase id="uploadstart" value="开始" client="1"/>
+		<phrase id="uploadcancel" value="取消" client="1"/>
+		<phrase id="uploaddelete" value="删去" client="1"/>
+		<phrase id="uploadoverwrite" value="覆盖旧文件?" client="1"/>
+		<phrase id="uploaderrmsg1" value="上传文件超过 php.ini设置"/>
+		<phrase id="uploaderrmsg2" value="上传文件 MAX_FILE_SIZE 超过form表单设置"/>
+		<phrase id="uploaderrmsg3" value="文件部分上传"/>
+		<phrase id="uploaderrmsg4" value="无上传"/>
+		<phrase id="uploaderrmsg6" value="临时目录错误"/>
+		<phrase id="uploaderrmsg7" value="无法写入文件"/>
+		<phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload"/>
+		<phrase id="uploaderrmsgpostmaxsize" value="上传文件超过 php.ini设置post_max_size"/>
+		<phrase id="uploaderrmsgmaxfilesize" value="文件太大"/>
+		<phrase id="uploaderrmsgminfilesize" value="文件太小"/>
+		<phrase id="uploaderrmsgacceptfiletypes" value="文件格式不允许上传"/>
+		<phrase id="uploaderrmsgmaxnumberoffiles" value="上传文件过多" client="1"/>
+		<phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width"/>
+		<phrase id="uploaderrmsgminwidth" value="Image requires a minimum width"/>
+		<phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height"/>
+		<phrase id="uploaderrmsgminheight" value="Image requires a minimum height"/>
+		<phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1"/>
+		<phrase id="updatevalue" value="更新"/>
+		<phrase id="useremail" value="Email"/>
+		<phrase id="userexists" value="已经存在这个用户"/>
+		<phrase id="userlevel" value="用户等级: "/>
+		<phrase id="userleveladministratorname" value="用户等级 -1 必须为 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="用户等级权限"/>
+		<phrase id="userlevelidinteger" value="User Level ID 必须为整数" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u'已经登录!"/>
+		<phrase id="username" value="用户名"/>
+		<phrase id="userprofilecorrupted" value="用户信息错误请推出后重新登录"/>
+		<phrase id="view" value="查看"/>
+		<phrase id="viewlink" value="查看" imageurl="phpimages/view.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="viewpageaddlink" value="增加"/>
+		<phrase id="viewpagecopylink" value="复制"/>
+		<phrase id="viewpagedeletelink" value="删去"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="编辑"/>
+		<phrase id="wrongfiletype" value="文件类型错误." client="1"/>
+		<phrase id="tableorview" value="Tables"/>
+		<phrase id="=" value=" "/>
+		<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+		<phrase id="&lt;" value="&amp;lt;"/>
+		<phrase id="&lt;=" value="&amp;lt;="/>
+		<phrase id="&gt;" value="&amp;gt;"/>
+		<phrase id="&gt;=" value="&amp;gt;="/>
+		<phrase id="like" value="包含"/>
+		<phrase id="not like" value="不包含"/>
+		<phrase id="starts with" value="开始"/>
+		<phrase id="ends with" value="结束"/>
+		<phrase id="is null" value="为空"/>
+		<phrase id="is not null" value="不为空"/>
+		<phrase id="between" value="介于"/>
+		<phrase id="and" value="且"/>
+		<phrase id="or" value="或"/>
+	</global>
+	<project><phrase id="bodytitle" value="疯狂的编码"/>
+<phrase id="footertext" value="&amp;copy;2013 e.World Technology Ltd. All rights reserved."/>
+<menu id="2"><phrase id="menutext" value="略略略"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="用户管理"/>
+</menu>
+<table id="user_info"><phrase id="tblcaption" value="用户管理"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="account"><phrase id="fldcaption" value="账号"/>
+</field>
+<field id="nickname"><phrase id="fldcaption" value="昵称"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="密码"/>
+</field>
+<field id="avatar"><phrase id="fldcaption" value="头像"/>
+</field>
+<field id="create_time"><phrase id="fldcaption" value="注册时间"/>
+</field>
+<field id="login_time"><phrase id="fldcaption" value="最后登录时间"/>
+</field>
+<field id="describe"><phrase id="fldcaption" value="备注"/>
+</field>
+</table>
+</project>
+</ew-language>
